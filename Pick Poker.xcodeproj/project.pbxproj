@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		86A2255624CA421700D8EFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2255524CA421700D8EFDC /* AppDelegate.swift */; };
 		86A2255824CA421700D8EFDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2255724CA421700D8EFDC /* SceneDelegate.swift */; };
-		86A2255A24CA421700D8EFDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2255924CA421700D8EFDC /* ContentView.swift */; };
+		86A2255A24CA421700D8EFDC /* AllCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2255924CA421700D8EFDC /* AllCardsView.swift */; };
 		86A2255C24CA421800D8EFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A2255B24CA421800D8EFDC /* Assets.xcassets */; };
 		86A2255F24CA421800D8EFDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A2255E24CA421800D8EFDC /* Preview Assets.xcassets */; };
 		86A2256224CA421800D8EFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A2256024CA421800D8EFDC /* LaunchScreen.storyboard */; };
+		86A2256A24CA422E00D8EFDC /* pokerCards.json in Resources */ = {isa = PBXBuildFile; fileRef = 86A2256924CA422E00D8EFDC /* pokerCards.json */; };
+		86A2256C24CA425F00D8EFDC /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2256B24CA425F00D8EFDC /* Bundle+Ext.swift */; };
+		86A2256E24CA427700D8EFDC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2256D24CA427700D8EFDC /* Card.swift */; };
+		86A2257024CA4F6700D8EFDC /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2256F24CA4F6700D8EFDC /* ColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86A2255224CA421700D8EFDC /* Pick Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A2255524CA421700D8EFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A2255724CA421700D8EFDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		86A2255924CA421700D8EFDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86A2255924CA421700D8EFDC /* AllCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCardsView.swift; sourceTree = "<group>"; };
 		86A2255B24CA421800D8EFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A2255E24CA421800D8EFDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86A2256124CA421800D8EFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A2256324CA421800D8EFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A2256924CA422E00D8EFDC /* pokerCards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokerCards.json; sourceTree = "<group>"; };
+		86A2256B24CA425F00D8EFDC /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		86A2256D24CA427700D8EFDC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		86A2256F24CA4F6700D8EFDC /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				86A2255524CA421700D8EFDC /* AppDelegate.swift */,
 				86A2255724CA421700D8EFDC /* SceneDelegate.swift */,
-				86A2255924CA421700D8EFDC /* ContentView.swift */,
+				86A2255924CA421700D8EFDC /* AllCardsView.swift */,
+				86A2256F24CA4F6700D8EFDC /* ColorPickerView.swift */,
+				86A2256B24CA425F00D8EFDC /* Bundle+Ext.swift */,
+				86A2256D24CA427700D8EFDC /* Card.swift */,
 				86A2255B24CA421800D8EFDC /* Assets.xcassets */,
 				86A2256024CA421800D8EFDC /* LaunchScreen.storyboard */,
 				86A2256324CA421800D8EFDC /* Info.plist */,
 				86A2255D24CA421800D8EFDC /* Preview Content */,
+				86A2256924CA422E00D8EFDC /* pokerCards.json */,
 			);
 			path = "Pick Poker";
 			sourceTree = "<group>";
@@ -134,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A2256224CA421800D8EFDC /* LaunchScreen.storyboard in Resources */,
+				86A2256A24CA422E00D8EFDC /* pokerCards.json in Resources */,
 				86A2255F24CA421800D8EFDC /* Preview Assets.xcassets in Resources */,
 				86A2255C24CA421800D8EFDC /* Assets.xcassets in Resources */,
 			);
@@ -147,8 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A2255624CA421700D8EFDC /* AppDelegate.swift in Sources */,
+				86A2256C24CA425F00D8EFDC /* Bundle+Ext.swift in Sources */,
+				86A2257024CA4F6700D8EFDC /* ColorPickerView.swift in Sources */,
+				86A2256E24CA427700D8EFDC /* Card.swift in Sources */,
 				86A2255824CA421700D8EFDC /* SceneDelegate.swift in Sources */,
-				86A2255A24CA421700D8EFDC /* ContentView.swift in Sources */,
+				86A2255A24CA421700D8EFDC /* AllCardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "oriapy.Pick-Poker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -316,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "oriapy.Pick-Poker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

@@ -1,0 +1,262 @@
+[
+  {
+    "suit": "hearts",
+    "value": 2,
+    "image" : "2H"
+  },
+  {
+    "suit": "hearts",
+    "value": 3,
+    "image" : "3H"
+  },
+  {
+    "suit": "hearts",
+    "value": 4,
+    "image" : "4H"
+  },
+  {
+    "suit": "hearts",
+    "value": 5,
+    "image" : "5H"
+  },
+  {
+    "suit": "hearts",
+    "value": 6,
+    "image" : "6H"
+  },
+  {
+    "suit": "hearts",
+    "value": 7,
+    "image" : "7H"
+  },
+  {
+    "suit": "hearts",
+    "value": 8,
+    "image" : "8H"
+  },
+  {
+    "suit": "hearts",
+    "value": 9,
+    "image" : "9H"
+  },
+  {
+    "suit": "hearts",
+    "value": 10,
+    "image" : "10H"
+  },
+  {
+    "suit": "hearts",
+    "value": 11,
+    "image" : "JH"
+  },
+  {
+    "suit": "hearts",
+    "value": 12,
+    "image" : "QH"
+  },
+  {
+    "suit": "hearts",
+    "value": 13,
+    "image" : "KH"
+  },
+  {
+    "suit": "hearts",
+    "value": 14,
+    "image" : "AH"
+  },
+  {
+    "suit": "diamonds",
+    "value": 2,
+    "image" : "2D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 3,
+    "image" : "3D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 4,
+    "image" : "4D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 5,
+    "image" : "5D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 6,
+    "image" : "6D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 7,
+    "image" : "7D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 8,
+    "image" : "8D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 9,
+    "image" : "9D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 10,
+    "image" : "10D"
+  },
+  {
+    "suit": "diamonds",
+    "value": 11,
+    "image" : "JD"
+  },
+  {
+    "suit": "diamonds",
+    "value": 12,
+    "image" : "QD"
+  },
+  {
+    "suit": "diamonds",
+    "value": 13,
+    "image" : "KD"
+  },
+  {
+    "suit": "diamonds",
+    "value": 14,
+    "image" : "AD"
+  },
+  {
+    "suit": "clubs",
+    "value": 2,
+    "image" : "2C"
+  },
+  {
+    "suit": "clubs",
+    "value": 3,
+    "image" : "3C"
+  },
+  {
+    "suit": "clubs",
+    "value": 4,
+    "image" : "4C"
+  },
+  {
+    "suit": "clubs",
+    "value": 5,
+    "image" : "5C"
+  },
+  {
+    "suit": "clubs",
+    "value": 6,
+    "image" : "6C"
+  },
+  {
+    "suit": "clubs",
+    "value": 7,
+    "image" : "7C"
+  },
+  {
+    "suit": "clubs",
+    "value": 8,
+    "image" : "8C"
+  },
+  {
+    "suit": "clubs",
+    "value": 9,
+    "image" : "9C"
+  },
+  {
+    "suit": "clubs",
+    "value": 10,
+    "image" : "10C"
+  },
+  {
+    "suit": "clubs",
+    "value": 11,
+    "image" : "JC"
+  },
+  {
+    "suit": "clubs",
+    "value": 12,
+    "image" : "QC"
+  },
+  {
+    "suit": "clubs",
+    "value": 13,
+    "image" : "KC"
+  },
+  {
+    "suit": "clubs",
+    "value": 14,
+    "image" : "AC"
+  },
+  {
+    "suit": "spades",
+    "value": 2,
+    "image" : "2S"
+  },
+  {
+    "suit": "spades",
+    "value": 3,
+    "image" : "3S"
+  },
+  {
+    "suit": "spades",
+    "value": 4,
+    "image" : "4S"
+  },
+  {
+    "suit": "spades",
+    "value": 5,
+    "image" : "5S"
+  },
+  {
+    "suit": "spades",
+    "value": 6,
+    "image" : "6S"
+  },
+  {
+    "suit": "spades",
+    "value": 7,
+    "image" : "7S"
+  },
+  {
+    "suit": "spades",
+    "value": 8,
+    "image" : "8S"
+  },
+  {
+    "suit": "spades",
+    "value": 9,
+    "image" : "9S"
+  },
+  {
+    "suit": "spades",
+    "value": 10,
+    "image" : "10S"
+  },
+  {
+    "suit": "spades",
+    "value": 11,
+    "image" : "JS"
+  },
+  {
+    "suit": "spades",
+    "value": 12,
+    "image" : "QS"
+  },
+  {
+    "suit": "spades",
+    "value": 13,
+    "image" : "KS"
+  },
+  {
+    "suit": "spades",
+    "value": 14,
+    "image" : "AS"
+  }
+]
